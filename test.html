@@ -1,0 +1,71 @@
+<style>
+    body{
+        margin: 0;
+    }
+    nav{
+        background: black;
+        padding: 20px;
+        width:100%;
+        top:0;
+        color:#fff;
+        font-size: 25px;
+        font-family: comic sans ms;
+    }
+
+    .fixed{
+        animation: drop 1s;
+        position: fixed;
+    }
+
+    @keyframes drop {
+        from{position: fixed; top:-10; opacity: 0;}
+        to{position: fixed; top:0; opacity: 1;}
+    }
+
+  #items{
+    padding: 10px;
+    background: #eee;
+    border:1px solid #bbb;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  .hide{
+    display: none!important;
+  }
+
+</style>
+
+
+<nav id="nav">Welcome Guesta <span></span></nav>
+
+<h1 >Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Here</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+<h1>Item Scrollable</h1>
+
+
+
+<button id="triggers">Start Print</button>
+<h2 id="items" class="hide"></h2>
+
+<p>
+<br>
+ <script src="script.js"></script>
